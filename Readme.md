@@ -73,4 +73,8 @@ apt-get install postgresql postgresql-contrib
 
 - sair do banco p executar algo no linux:`\!`, `\! codigo`
 
--
+- criando user com auxilio da cli `create user --interactive Username`
+
+- entrar com user em um banco especifico:`psql -U username dbName`
+
+- abrir prompt postgres:`sudo -i -u postgres `
