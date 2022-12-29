@@ -50,3 +50,27 @@ apt-get install postgresql postgresql-contrib
 - excluir usuario: `DROP USER username`
 
 - excluir banco: `DROP DATABASE dbName`
+
+- obter informaçao sobre onde esta conectado:`\conninfo`
+
+- entrar no linux como postgres: `sudo -i -u postgres`
+
+- utilitario de gerenciamento:`psql`
+
+- mostrar todos comandos SQL disponiveis:`\h`
+
+- buscar informaçao de um comando especifico: `\h comandoSQL`
+
+- mostrar comandos internos do psql: `\?`
+
+- mostrar usuarios:`\du`
+
+- conectar num banco:`\c dbName`
+
+- visualizar as tabelas:`\d`
+
+- visualizar as tabelas administrativas do postgres:`\dS`
+
+- sair do banco p executar algo no linux:`\!`, `\! codigo`
+
+-
