@@ -1,10 +1,12 @@
 # join
 
-clausulas join sao usadas para combinar dados provenientes de duas ou mais tavelas em um unico conjunto de resultados, baseado em condiçoes de join especificadas.
+clausulas join sao usadas para combinar dados provenientes de duas ou mais tabelas em um unico conjunto de resultados, baseado em condiçoes de join especificadas.
 
 - `inner join`: retorna linhas quando houver pelo menos uma correspondencia em ambas as tabelas.
 
 - `outer join`: retorna linhas mesmo quando nao houver pelo menos uma correspondencia em uma das tabelas (ou ambas). O outer join divide-se em left join, right join e cross join.
+
+**inner join seria a intersecção de duas tabelas.**
 
 ## clausula on
 
