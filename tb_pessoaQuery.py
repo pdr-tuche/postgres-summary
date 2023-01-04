@@ -13,7 +13,7 @@ def conecta_db_pessoa():
     return conexao
 
 
-def exec(sql):
+def exec(sql: str):
     con = conecta_db_pessoa()
     cur = con.cursor()
     cur.execute(sql)
@@ -45,7 +45,7 @@ def preencher_colunas():
     exec(sql)
 
 
-def pegar_dados(colunas, tabela):
+def pegar_dados(colunas: str, tabela: str) -> list:
     if colunas == "":
         sql = "select * from {}".format(tabela)
     else:
