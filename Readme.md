@@ -1,5 +1,7 @@
 # comandos terminal postgreSQL
 
+[link com alguns conteúdos legais sobre PostgreSQL](https://github.com/pdr-tuche/postgres-summary/blob/main/Links.md)
+
 ## instalação:
 
 - pgAdmin Tutorial: https://www.tecmint.com/install-postgresql-with-pgadmin4-on-linux-mint/
